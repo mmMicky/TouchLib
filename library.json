@@ -1,7 +1,7 @@
 {
     "name": "TouchLib",
     "version": "0.0.2",
-    "description": "Supports TFT displays using drivers (ILI9341 etc) that operate with hardware SPI or 8 bit parallel.",
+    "description": "Integrated touch driver (CST328, CST816, CST820, GT911, FT3267, FT5x06)",
     "keywords": "TouchLib",
     "authors": [{
         "name": "mmMicky",

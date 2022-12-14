@@ -1,0 +1,30 @@
+{
+    "name": "TouchLib",
+    "version": "0.0.2",
+    "description": "Supports TFT displays using drivers (ILI9341 etc) that operate with hardware SPI or 8 bit parallel.",
+    "keywords": "TouchLib",
+    "authors": [{
+        "name": "mmMicky",
+        "url": "https://github.com/mmMicky",
+        "maintainer": true
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mmMicky/TouchLib.git"
+    },
+    "homepage": "https://github.com/mmMicky/TouchLib",
+    "export": {
+        "include": [
+            "LICENSE",
+            "library.json",
+            "library.properties",
+            "README.md",
+            "keywords.txt",
+            "src/*",
+            "examples/*"
+        ]
+    },
+    "frameworks": ["arduino", "espidf"],
+    "platforms": "esp32",
+    "headers": "TouchLib.h"
+}

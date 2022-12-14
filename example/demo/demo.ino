@@ -3,6 +3,9 @@
 //#define TOUCH_MODULES_CST_MUTUAL
 //#define TOUCH_MODULES_ZTW622
 //#define TOUCH_MODULES_L58
+//#define TOUCH_MODULES_FT3267
+//#define TOUCH_MODULES_FT5x06
+
 
 #include "Arduino.h"
 #include "TouchLib.h"

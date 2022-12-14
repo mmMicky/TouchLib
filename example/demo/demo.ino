@@ -6,7 +6,6 @@
 //#define TOUCH_MODULES_FT3267
 //#define TOUCH_MODULES_FT5x06
 
-
 #include "Arduino.h"
 #include "TouchLib.h"
 #include "Wire.h"

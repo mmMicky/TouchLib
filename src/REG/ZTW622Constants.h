@@ -1,6 +1,7 @@
 #pragma once
 
-#define ZTW622_SLAVE_ADDRESS                  (0x20)
+#define ZTW622_SLAVE1_ADDRESS                  (0x20)
+#define ZTW622_SLAVE2_ADDRESS                  (0x46)
 
 /*2. Register Map一些寄存器的定义，用户不需修改，直接使用就可以了*/
 #define ZINITIX_SWRESET_CMD                   ((uint16_t)0x0000)

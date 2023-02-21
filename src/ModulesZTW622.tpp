@@ -40,7 +40,7 @@ class TouchLibZTW622 : public TouchLibCommon<TouchLibZTW622>, public TouchLibInt
 
 public:
 #if defined(ARDUINO)
-  TouchLibZTW622(TwoWire &w, int sda = SDA, int scl = SCL, uint8_t addr = ZTW622_SLAVE_ADDRESS, int rst = -1) {
+  TouchLibZTW622(TwoWire &w, int sda = SDA, int scl = SCL, uint8_t addr = ZTW622_SLAVE1_ADDRESS, int rst = -1) {
     __wire = &w;
     __sda = sda;
     __scl = scl;
@@ -56,7 +56,7 @@ public:
     __scl = SCL;
     __rst = -1;
 #endif
-    __addr = ZTW622_SLAVE_ADDRESS;
+    __addr = ZTW622_SLAVE1_ADDRESS;
   }
 
   ~TouchLibZTW622() {
